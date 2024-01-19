@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+div, section, span, ul, li, a, header{
+    box-sizing: border-box;
+}
+
+/*css reset*/
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+#menu li a{
+    color: #17b9ce;
+    text-decoration: none;
+    font-size: 25px;
+    font-style: bold;
+
+}
+a:hover{
+    color: rgb(230, 115, 53);
+}
+
+section{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+
+#home{
+   background-image: url(Copy\ of\ CINEHYD.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#about{
+     background-color: #bb263d;
+}
+
+#awards{
+     background-color: #9e7463;
+}
+
+#registration{
+     background-color: #27384e;
+}
+
+#contact{
+     background-color: #f3e3d3;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
